@@ -1,11 +1,10 @@
 # Mask Detection Project for Visual Cognition Class
 #### Ufes - 2021/1
 ###### Cezar Gobbo e Rodrigo Caldeira
-
 #
 ###### Dependencies
-- [CUDA] - Parallel Computing Platform and API model v10.1
-- [YoloV4] - Convolutional Neural Network (CNN)
+- [CUDA](https://developer.nvidia.com/cuda-zone) - Parallel Computing Platform and API model v10.1
+- [YoloV4](https://github.com/AlexeyAB/darknet) - Convolutional Neural Network (CNN)
 - [OpenCV3](https://github.com/opencv/opencv.git) - Computer Vision library v3.4.0
 - [CMake](https://cmake.org) - Compilation Process control software
 
