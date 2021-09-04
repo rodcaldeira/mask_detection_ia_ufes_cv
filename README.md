@@ -3,8 +3,6 @@
 ###### Cezar Gobbo e Rodrigo Caldeira
 
 #
-#
-
 ###### Dependencies
 - [CUDA] - Parallel Computing Platform and API model v10.1
 - [YoloV4] - Convolutional Neural Network (CNN)
@@ -14,7 +12,6 @@
 #### Ubuntu 18.04 LTS (64 bit) Instalation Guide
 
 ##### Yolov4 Instalação and Configuration
-#
 ```sh
 git clone https://github.com/AlexeyAB/darknet
 cd darknet
@@ -43,7 +40,7 @@ After edit and save, you must build the darknet YoloV4 with the command:
 make
 ```
 After gen the file `libdarknet.so` we need to move it to our folder `lib/`
-
+#
 ##### Building Project
 
 Download models at LINK_DOWNLOAD
@@ -54,6 +51,6 @@ mkdir build && cd build
 cmake ..
 make
 ```
-
+#
 ##### Usage
 USAGE_DETAILS
