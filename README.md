@@ -5,7 +5,7 @@
 
 #### Ubuntu 18.04 LTS (64 bit) Instalation Guide
 
-###### Dependencies
+##### Dependencies
 
 Cmake
 ```
