@@ -25,7 +25,7 @@ Nvidia Driver 440 Installation (Only For Nvidia PCs)
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
 
-Now go to Software & Updates -> Additional Drivers -> Choose nvidia-driver-440
+Now go to Software & Updates -> Additional Drivers -> Choose Latest Driver (careful, do not choose the Server one)
 Wait installation
 Reboot
 ```
