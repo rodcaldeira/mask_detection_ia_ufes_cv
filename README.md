@@ -109,8 +109,8 @@ Now go the Mask Detection project root folder and create a directory named `lib/
 #
 ##### Building Project
 
-Download models at LINK_DOWNLOAD
-Save them on `model/` folder at repository root level.
+Download the network models at https://drive.google.com/file/d/101FbAVvSUsh8zXeosQXWdMWwi7n8-2v2/view?usp=sharing.
+Save them and extract at repository root level, generating a folder called `net_models` automatically.
 
 ```sh
 mkdir build && cd build
