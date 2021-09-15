@@ -43,6 +43,7 @@ void Camera::open_video(VideoCapture* cap)
         cap->open(this->get_url());
     }else{
         cap->open(this->get_camera());
+        cap->set(CV_CAP_PROP_FPS, 30);
     }
 
     if(!cap->isOpened()){
