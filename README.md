@@ -25,7 +25,7 @@ Nvidia Driver 440 Installation (Only For Nvidia PCs)
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt-get update
 
-Now go to Software & Updates -> Additional Drivers -> Choose nvidia-driver-440
+Now go to Software & Updates -> Additional Drivers -> Choose Latest Driver (careful, do not choose the Server one)
 Wait installation
 Reboot
 ```
@@ -109,10 +109,11 @@ Now go the Mask Detection project root folder and create a directory named `lib/
 #
 ##### Building Project
 
-Download models at LINK_DOWNLOAD
-Save them on `model/` folder at repository root level.
+Download the network models at https://drive.google.com/file/d/101FbAVvSUsh8zXeosQXWdMWwi7n8-2v2/view?usp=sharing.
+Save them and extract at repository root level, generating a folder called `net_models` automatically.
 
 ```sh
+cd mask_detection_ia_ufes_cv
 mkdir build && cd build
 cmake ..
 make
