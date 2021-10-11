@@ -115,7 +115,7 @@ Save them and extract at repository root level, generating a folder called `net_
 ```sh
 cd mask_detection_ia_ufes_cv
 mkdir build && cd build
-cmake ..
+cmake -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda ..
 make
 ```
 #
