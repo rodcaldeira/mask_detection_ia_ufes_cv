@@ -85,6 +85,8 @@ Edit `Makefile` replacing lines below ("-" means remove, "+" means add)
 ```sh
 -GPU=0
 +GPU=1
+-CUDNN=0
++CUDNN=1
 -OPENCV=0
 +OPENCV=1
 -LIBSO=0
